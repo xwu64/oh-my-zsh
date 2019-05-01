@@ -228,3 +228,109 @@ Oh My Zsh is released under the [MIT license](LICENSE.txt).
 ![Planet Argon](http://pa-github-assets.s3.amazonaws.com/PARGON_logo_digital_COL-small.jpg)
 
 Oh My Zsh was started by the team at [Planet Argon](https://www.planetargon.com/?utm_source=github), a [Ruby on Rails development agency](https://www.planetargon.com/skills/ruby-on-rails-development?utm_source=github).
+
+## Customization in this fork
+
+This oh-my-zsh fork enables following plugins in installation. 
+
+> - git 
+> - tmux 
+> - autojump 
+> - extract 
+> - zsh-autosuggestions 
+> - zsh-syntax-highlighting 
+> - bgnotify 
+> - colored-man-pages 
+> - pip 
+> - web-search 
+> - sudo 
+> - fancy-ctrl-z
+
+Simple introductions of plugins are described below. If you want to know more details about these plugins, you can read their "README" file or check source code directly. 
+
+### [git](<https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git>)
+
+The git plugin provides many aliases and a few useful functions for git. 
+
+In here, I list some of most useful aliases. 
+
+| Alias | Command       |
+| ----- | ------------- |
+| ga    | git add       |
+| gcmsg | git commit -m |
+| gd    | git diff      |
+| gl    | git pull      |
+| gp    | git push      |
+
+### [tmux](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/tmux>)
+
+The tmux plugin provides aliases for tmux. 
+
+In here, I list some of most useful aliases. 
+
+| Alias | Command             |
+| ----- | ------------------- |
+| ta    | tmux attach -t      |
+| ts    | tmux new-session -s |
+| tl    | tmux list-sessions  |
+
+### [autojump](<https://github.com/wting/autojump>)
+
+The autojump provides a faster way to naviagte your filesystem. **<u>You must install autojump before enable autojump plugin.</u>** 
+
+| Command    | Description                                                  |
+| ---------- | ------------------------------------------------------------ |
+| j foo      | Jump to a directory that contains `foo`                      |
+| jc bar     | Jump to a child directory that contains `bar`                |
+| jo music   | Open file manager to directories that contains `music`       |
+| jco images | Opening a file manager to a child directory that contains `images` |
+
+###[extract](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/extract>)
+
+The extract plugin defines `extract` command that extracts the archive file you pass it, and it supports a wide variety of archive filetypes. For example, if you want to extract `archive.zip` file, the command is 
+
+```bash
+$ extract archive.zip
+```
+
+The supported file extensions can be checked in the above link. 
+
+###[zsh-autosuggestions](<https://github.com/zsh-users/zsh-autosuggestions>)
+
+The zsh-autosuggestions suggests commands as you type, based on command history. The demo can be watched in the above link. 
+
+### [zsh-syntax-highlighting](<https://github.com/zsh-users/zsh-syntax-highlighting>)
+
+The zsh-syntax-highlighting provides syntax highlighting for the shell zsh. Examples can be  checked in the above link. 
+
+###[bgnotify](<https://github.com/t413/zsh-background-notify>) 
+
+The bgnotify provides cross-platform background notifications for long running commands. Supports OSX and Ubuntu linux. The demo can be watched in the above link. 
+
+### [colored-man-pages](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/colored-man-pages>)
+
+The colored-man-pages provides syntax coloring and highlight for results from `man` command. 
+
+| Disable Plugin                       | Enable Plugin                        |
+| ------------------------------------ | ------------------------------------ |
+| ![image-20190430232248264](images/2) | ![image-20190430232414517](images/1) |
+
+###[pip](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/pip>)
+
+The pip plugin provides autocomplete for pip commands.
+
+### [web-search](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/web-search>)
+
+The web-search plugin provides alias for searching with Google, Wiki, Bing, YouTube and other popular services. For example,
+
+```shell
+$ google oh-my-zsh
+```
+
+### [sudo](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sudo>)
+
+The sudo plugin provides an easy way to prefix your current or previous commands with `sudo` by pressing <kbd>esc</kbd> twice.
+
+### [fancy-ctrl-z](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/fancy-ctrl-z>)
+
+The fancy-ctrl-z plugin provides an easy way to get back to Vim if you pause Vim by pressing <kbd>Ctrl-z</kbd> before.  You can press <kbd>Ctrl-z</kbd> again to get back to Vim. 
