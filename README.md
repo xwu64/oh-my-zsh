@@ -285,7 +285,7 @@ The autojump provides a faster way to naviagte your filesystem. **<u>You must in
 | jo music   | Open file manager to directories that contains `music`       |
 | jco images | Opening a file manager to a child directory that contains `images` |
 
-###[extract](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/extract>)
+### [extract](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/extract>)
 
 The extract plugin defines `extract` command that extracts the archive file you pass it, and it supports a wide variety of archive filetypes. For example, if you want to extract `archive.zip` file, the command is 
 
@@ -295,7 +295,7 @@ $ extract archive.zip
 
 The supported file extensions can be checked in the above link. 
 
-###[zsh-autosuggestions](<https://github.com/zsh-users/zsh-autosuggestions>)
+### [zsh-autosuggestions](<https://github.com/zsh-users/zsh-autosuggestions>)
 
 The zsh-autosuggestions suggests commands as you type, based on command history. The demo can be watched in the above link. 
 
@@ -303,7 +303,7 @@ The zsh-autosuggestions suggests commands as you type, based on command history.
 
 The zsh-syntax-highlighting provides syntax highlighting for the shell zsh. Examples can be  checked in the above link. 
 
-###[bgnotify](<https://github.com/t413/zsh-background-notify>) 
+### [bgnotify](<https://github.com/t413/zsh-background-notify>) 
 
 The bgnotify provides cross-platform background notifications for long running commands. Supports OSX and Ubuntu linux. The demo can be watched in the above link. 
 
@@ -315,7 +315,7 @@ The colored-man-pages provides syntax coloring and highlight for results from `m
 | ------------------------------------ | ------------------------------------ |
 | ![image-20190430232248264](images/2) | ![image-20190430232414517](images/1) |
 
-###[pip](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/pip>)
+### [pip](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/pip>)
 
 The pip plugin provides autocomplete for pip commands.
 
