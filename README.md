@@ -334,3 +334,9 @@ The sudo plugin provides an easy way to prefix your current or previous commands
 ### [fancy-ctrl-z](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/fancy-ctrl-z>)
 
 The fancy-ctrl-z plugin provides an easy way to get back to Vim if you pause Vim by pressing <kbd>Ctrl-z</kbd> before.  You can press <kbd>Ctrl-z</kbd> again to get back to Vim. 
+
+### [autopep8](<https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/autopep8>)
+
+This plugin adds completion for [autopep8](<https://pypi.org/project/autopep8/>), a tool that automatically formats Python code to conform to the PEP 8 style guide.
+
+You can follow autopep8's official documents to install autopep8 before enable this plugin. 
