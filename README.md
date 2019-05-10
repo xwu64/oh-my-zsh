@@ -245,6 +245,7 @@ This oh-my-zsh fork enables following plugins in installation.
 > - web-search 
 > - sudo 
 > - fancy-ctrl-z
+> - autopep8
 
 Simple introductions of plugins are described below. If you want to know more details about these plugins, you can read their "README" file or check source code directly. 
 
